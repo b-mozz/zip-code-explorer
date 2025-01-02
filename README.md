@@ -12,6 +12,34 @@ This application leverages Python for both backend processing and frontend visua
 - Interactive folium maps with custom markers.
 - Easy-to-use ZIP code search functionality.
 
+
+    
+    
+
+## **Setup Instructions**
+
+ **1. Clone the Repository**
+```bash
+git clone https://github.com/b-mozz/zip-code-explorer.git
+cd zip-code-explorer
+```
+**2. Install Dependencies:**
+Ensure you have Python 3.8+ installed, then install the required libraries:
+```bash
+pip install -r requirements.txt
+```
+**3. Test Locally:**
+Run the test.py file to validate the data processing logic:
+```bash
+python src/test.py
+```
+**4. Test Locally:**
+Launch the app with:
+```bash
+streamlit run src/app.py
+```
+The app will open in your default browser at http://localhost:8501, or you can use the direct [***link***](https://zip-code-explorer-nyc.streamlit.app/) to access and test the web app
+
 ## Technologies Used
 ### Programming Languages
 - **Python:**  Core language for processing data and building the application.
@@ -27,11 +55,13 @@ This application leverages Python for both backend processing and frontend visua
 - **GitHub:**  Repository management and version control.
 
 ## Crime Data
-- The data used in this project is sourced from NYC OpenData and includes all arrests made in 2024.
+- Data has been taken from NYC OpenData. This dataset includes all the arrest in 2024.
+- [Here is the link to the dataset](https://data.cityofnewyork.us/Public-Safety/NYPD-Arrest-Data-Year-to-Date-/uip8-fykc/about_data)
+
 
 
 ## Live Demo
-[**Explore the Web App Here**](https://zip-code-explorer-nyc.streamlit.app/)
+[***Explore the Web App Here***](https://zip-code-explorer-nyc.streamlit.app/)
 
 ## Repository
-[**GitHub Repository**](https://github.com/b-mozz/zip-code-explorer)
+[***GitHub Repository***](https://github.com/b-mozz/zip-code-explorer)
