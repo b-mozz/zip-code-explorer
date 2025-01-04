@@ -24,6 +24,8 @@ If you're planning to move to a new neighborhood or simply curious about your cu
 </div>
 """, unsafe_allow_html=True)
 
+st.write(" ")
+
 
 if "zip_data" not in st.session_state:
     st.session_state.zip_data = []
