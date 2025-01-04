@@ -3,5 +3,5 @@ folium
 pandas
 streamlit-folium
 scikit-learn
-matplotlib.pyplot
+matplotlib
 numpy
