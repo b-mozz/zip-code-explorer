@@ -14,17 +14,19 @@ st.markdown("""
 <div style="
     font-size:19px; 
     font-weight:bold; 
-    color:#c24b4b; 
-    border: 2px solid #c24b4b; 
+    color:#FFFFFF; 
+    border: 2px solid #FFA500; 
     padding: 15px; 
     border-radius: 5px; 
-    background-color: #ffeaea;
+    background-color: #FFA500;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
 If you're planning to move to a new neighborhood or simply curious about your current one, just provide us with the ZIP codes (as many as you like), and we'll take care of the rest!
 </div>
 """, unsafe_allow_html=True)
 
 st.write(" ")
+st.write("Here is a list of all valid ZIP codes in NYC:")
+st.markdown("[View ZIP Code List](https://www.ciclt.net/sn/clt/capitolimpact/gw_ziplist.aspx?zip=100)", unsafe_allow_html=True)
 
 
 if "zip_data" not in st.session_state:
