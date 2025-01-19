@@ -15,10 +15,10 @@ st.markdown("""
     font-size:19px; 
     font-weight:bold; 
     color:#FFFFFF; 
-    border: 2px solid #FFA500; 
+    border: 2px solid #F4D35E; 
     padding: 15px; 
     border-radius: 5px; 
-    background-color: #FFA500;
+    background-color: #F4D35E;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
 If you're planning to move to a new neighborhood or simply curious about your current one, just provide us with the ZIP codes (as many as you like), and we'll take care of the rest!
 </div>
